@@ -1,0 +1,114 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+#todo-list-brd {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	height: 100vh;
+	background-color: black;
+  
+}
+/* 8888888888888888888888888888888888888888888888888888888888888888 */
+
+#hdr-panel h1 {
+  display: flex;
+	flex: 1;
+	position: relative;
+	align-items: center;
+	align-items: stretch;
+	justify-content: center;
+	text-align: center;
+  overflow: auto;
+	margin: 14px;
+	margin-top: 7px;
+	padding: 10px 30px;
+	background-color: orange;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* 8888888888888888888888888888888888888888888888888888888888888888 */
+
+#task-panel {
+	display: flex;
+	flex: 1;
+	position: relative;
+	align-items: center;
+	align-items: stretch;
+	justify-content: center;
+	text-align: center;
+}
+
+#input-panel {
+  display: flex;
+  flex-direction: column;
+	flex: 9;
+	overflow: auto;
+	margin: 14px;
+	margin-top: 7px;
+	padding: 10px 30px;
+	background-color: aquamarine;
+	font-weight: bold;
+	text-align: center;
+}
+
+#btn-panel {
+	flex: 1;
+	overflow: auto;
+	margin: 14px;
+	margin-top: 7px;
+	padding: 10px 30px;
+	background-color: aquamarine;
+	font-weight: bold;
+	text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#input-panel input {
+	flex: 1;
+	overflow: auto;
+	font-weight: bold;
+	text-align: start;
+
+  margin: 4px;
+  font-size: 20px;
+
+}
+
+#btn-panel button {
+  flex: 1;
+	overflow: auto;
+	font-weight: bold;
+  text-align:center;
+  margin: 4px;
+  font-size: 20px;
+}
+
+/* 8888888888888888888888888888888888888888888888888888888888888888 */
+
+#list-panel {
+	display: flex;
+	flex: 10;
+	position: relative;
+	align-items: stretch;
+	background-color: yellow;
+	margin: 14px;
+	margin-bottom: 7px;
+	padding: 10px 30px;
+	font-weight: bold;
+	font-size: xx-large;
+	position: relative;
+}
+
+/* 8888888888888888888888888888888888888888888888888888888888888888 */
